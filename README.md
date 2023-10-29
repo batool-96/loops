@@ -25,7 +25,8 @@ ska använda en do-while-loop
 Testet som följer i repot med ska användas och godkänt ges om testet kan köras utan fel.
 Du kan installera jest med kommandot
 
-  $ npm install jest
+
+    $ npm install jest
 
 
 För att köra testet;
