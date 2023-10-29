@@ -1,4 +1,19 @@
-const { separateNumbersForLoop, separateNumbersWhileLoop, separateNumbersDoWhileLoop, } = require('./separateNumbers');
+const { separateNumbersForLoop, separateNumbersWhileLoop, separateNumbersDoWhileLoop, printArray, } = require('./separateNumbers');
+
+
+describe('printArray', () => {
+  it('should print each element of an array', () => {
+    const arr = [1, 2, 3, 4, 5];
+    const spy = jest.spyOn(console, 'log');
+    printArray(arr);
+    expect(spy).toHaveBeenCalledTimes(arr.length);
+    expect(spy).toHaveBeenCalledWith(1);
+    expect(spy).toHaveBeenCalledWith(2);
+    expect(spy).toHaveBeenCalledWith(3);
+    expect(spy).toHaveBeenCalledWith(4);
+    expect(spy).toHaveBeenCalledWith(5);
+  });
+});
 
 describe('separateNumbersForLoop', () => {
   it('should separate even and odd numbers using for loop', () => {
