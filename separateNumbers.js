@@ -11,13 +11,19 @@ function separateNumbersForLoop(arr) {
   return [evenArr, oddArr];
 }
 
-//implementera funktionerna separateNumbersWhileLoop och  separateNumbersDoWhileLoop.
-//bägge dessa funktioner ska göra samma sak som separateNumbersForLoop fast med en 
-//while-loop respektive en Do-While-loop
+/*
+implementera funktionerna separateNumbersWhileLoop och  separateNumbersDoWhileLoop.
+bägge dessa funktioner ska göra samma sak som separateNumbersForLoop fast med en 
+while-loop respektive en Do-While-loop.
+
+implementera också printArray som endast skriver ut innehållet, i konsollen, i arrayen (parameter) med
+en foreach-loop.
+*/
   
 
 module.exports = {
   separateNumbersForLoop,
   separateNumbersWhileLoop,
   separateNumbersDoWhileLoop,
+  printArray,
 };
