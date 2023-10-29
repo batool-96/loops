@@ -10,17 +10,29 @@ De tre olika funktionerna ska namnges enligt nedan och använda loopar enligt f�
 
 **separateNumbersForLoop**
 
-använder en for-loop
+ska använda en for-loop
 
 
 **separateNumbersWhileLoop**
 
-använder en while-loop
+ska använda en while-loop
 
 
 **separateNumbersDoWhileLoop**
 
-använder en do-while-loop
+ska använda en do-while-loop
 
 Testet som följer i repot med ska användas och godkänt ges om testet kan köras utan fel.
+Du kan installera jest med kommandot
+
+  $ npm install jest
+
+
+För att köra testet;
+
+
+    $npm test separatenumbers.test.js
+
+
+  
 
