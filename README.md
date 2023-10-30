@@ -49,5 +49,5 @@ För att köra testet;
     $npm test separatenumbers.test.js
 
 
-  
+  I övrigt gäller att package.json får ändras, men inga packages/andra moduler får tillämpas i din lösning.
 
