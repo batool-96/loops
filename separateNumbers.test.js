@@ -1,3 +1,6 @@
+//separateNumbers.test.jest
+//denna fil får ej ändras
+
 const { separateNumbersForLoop, separateNumbersWhileLoop, separateNumbersDoWhileLoop, printArray, } = require('./separateNumbers');
 
 
