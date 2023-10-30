@@ -14,30 +14,30 @@ De olika funktionerna ska namnges enligt nedan och använda loopar enligt följa
 
 **separateNumbersForLoop**
 
-ska använda en for-loop för att itera över arrayen som är parameter och
-returnerar två arrayer: en med jämna tal och en med udda
+    ska använda en for-loop för att itera över arrayen som är parameter och
+    returnerar två arrayer: en med jämna tal och en med udda
 
 
 **separateNumbersWhileLoop**
 
-som ovan fast med en while-loop
-returnerar två arrayer: en med jämna tal och en med udda
+    som separateNumbersForLoop fast med en while-loop
+    returnerar två arrayer: en med jämna tal och en med udda
 
 
 **separateNumbersDoWhileLoop**
 
-som ovan fast med en do-while-loop
-returnerar två arrayer: en med jämna tal och en med udda
+    som separateNumbersForLoop fast med en do-while-loop
+    returnerar två arrayer: en med jämna tal och en med udda
 
 
 **printArray**
 
-ska skriva ut innehållet i arrayen med som itereras med en foreach-loop.
-ska inte returnera någonting
+    ska skriva ut innehållet i arrayen med som itereras med en foreach-loop.
+    ska inte returnera någonting
 
 
-Testet som följer i repot med ska användas och godkänt ges om testet kan köras utan fel.
-Du kan installera jest med kommandot
+Testet som följer i repot (separateNumbers.test.js) med ska användas (får ej ändras) och godkänt ges om testet körs utan fel.
+Du kan installera jest med kommandot;
 
 
     $ npm install jest
