@@ -1,6 +1,7 @@
 # 4 funktioner, 4 loopar
 
-Gör ett program med funktioner enligt nedan krav.
+Gör ett program enligt nedan krav.
+
 Tre av funktionerna ska utföra samma operation men med olika typer av loopar. Den sista ska endast skriva ut innehållet i en array.
 Alla funktionerna ska ta en array som argument. Arrayen ska innehålla flera olika heltal, både jämna och udda.
 De tre första funktionerna ska returnera två arrayer; 
